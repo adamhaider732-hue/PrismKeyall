@@ -1,0 +1,12 @@
+name: PrismKeyall
+version: 1.0.0
+main: online.prismsmp.keyall.PrismKeyall
+api-version: '1.21'
+description: Weighted random keyall every 5 hours
+commands:
+  keyall:
+    description: Run keyall manually
+    permission: prismsmp.keyall
+permissions:
+  prismsmp.keyall:
+    default: op
